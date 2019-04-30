@@ -1,0 +1,103 @@
+body {
+    background-color: #dddddd;
+    text-align: center;
+}
+
+#board-container {
+
+    display: inline-block;
+    padding: 2%;
+}
+.row {
+    /*display: flex;*/
+    /*justify-content: space-evenly;*/
+}
+.cell {
+    width: 10vmin;
+    height: 10vmin;
+    display: inline-block;
+    margin: 0px;
+}
+
+.black {
+    background-image: url(water.jpg);
+}
+
+.red {
+    background-image: url("lava.jpg");
+}
+
+.checker {
+    margin: 10%;
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    background-color: gray;
+    flex-wrap: wrap;
+
+}
+
+.gray-checker {
+    background-image: url("graycirce.png");
+    background-size: cover;
+
+}
+
+.black-checker {
+    background-image: url("blackcircle.png");
+    background-size: cover;
+}
+
+.king-black-checker {
+    background-image: url("blackcircleKing.png");
+    background-size: cover;
+}
+
+.king-gray-checker {
+    background-image: url("graycircleKing.png");
+    background-size: cover;
+}
+
+
+
+
+#header {
+    border-style: solid;
+    height: 70x;
+    padding-left: 25px;
+    font-family: fantasy;
+}
+
+#home {
+
+text-align: left;
+text-decoration: none;
+
+
+}
+
+
+
+.selected {
+margin: 0;
+border: 1vmin solid rgba(255,255,255,0.5);
+background-repeat: no-repeat;
+
+}
+
+#out-of-play-black {
+    height: 8vmin;
+    width: 8vmin;
+    display: inherit;
+    float: left;
+
+}
+
+#out-of-play-white {
+    height: 8vmin;
+    width: 8vmin;
+    display: inherit;
+
+    float: right;
+
+}
